@@ -38,7 +38,7 @@ A React application that displays a searchable and filterable list of businesses
 
 ## Live Site
 
-[Click here to view the live site](#) (Replace this with the actual link once deployed).
+[Click here to view the live site](#) (https://chicagobusinessfinder.netlify.app/).
 
 ## git repo
 
