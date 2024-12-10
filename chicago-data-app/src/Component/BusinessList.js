@@ -9,6 +9,8 @@ const BusinessList = () => {
   const [businessTypes, setBusinessTypes] = useState([]); // Available business types
   const [error, setError] = useState(null); // error state
 
+  //  I find fetch API more efficient
+
   useEffect(() => {
     fetch('https://data.cityofchicago.org/resource/uupf-x98q.json')
       .then(response => response.json())
@@ -27,7 +29,7 @@ const BusinessList = () => {
       });
   }, []);
 
-   // Handle search input change
+     // Handle search input change
    const handleSearchChange = (event) => {
     setSearchQuery(event.target.value);
   };

@@ -10,7 +10,7 @@ A React application that displays a searchable and filterable list of businesses
 - **React**: To build a responsive and interactive user interface.
 - **JavaScript**: For implementing the app's logic.
 - **HTML/CSS**: For structuring and styling components.
-- **Fetch API**: To retrieve business license data from the API.
+- **Fetch API using AJAX**: To retrieve business license data from the API.
 
 ## Features
 
@@ -35,10 +35,14 @@ A React application that displays a searchable and filterable list of businesses
    - Filtering and searching operations are performed on the client side.
    - Simple styles were used for styling components using styles.css file.
 
+## Unsolved problems
+   
+   - I wanted to add routes and nav bars for this project but time did permit. 
+
 
 ## Live Site
 
-[Click here to view the live site](#) (https://chicagobusinessfinder.netlify.app/).
+[Click here to view the live site](#)(https://chicagobusinessfinder.netlify.app/).
 
 ## git repo
 

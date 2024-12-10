@@ -16,7 +16,7 @@ const BusinessItem = ({ business }) => {
       ) : (
         <p><strong>Location:</strong> Coordinates not available</p>
       )}
-
+      
     </div>
     ); };
   
