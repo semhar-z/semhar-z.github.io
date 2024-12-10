@@ -10,7 +10,8 @@ A React application that displays a searchable and filterable list of businesses
 - **React**: To build a responsive and interactive user interface.
 - **JavaScript**: For implementing the app's logic.
 - **HTML/CSS**: For structuring and styling components.
-- **Fetch API using AJAX**: To retrieve business license data from the API.
+- **Fetch API**: To retrieve business license data from the API.
+- **City of Chicago's Open Data API** - data source for businesses
 
 ## Features
 
@@ -25,6 +26,9 @@ A React application that displays a searchable and filterable list of businesses
 1. **Component-Based Design**: 
    - `BusinessList`: Fetches data, manages state, and applies search and filter logic.
    - `BusinessItem`: Displays individual business details.
+   - `Map`: Displays map by using the coordinates provided
+   - `Navbar`: Displays the links in the page
+   - `Home`: Displays the main home page of the app
    - `App`: Serves as the root component.
 
 2. **Data Fetching and State Management**:
@@ -42,7 +46,7 @@ A React application that displays a searchable and filterable list of businesses
 
 ## Live Site
 
-[Click here to view the live site](#)(https://chicagobusinessfinder.netlify.app/).
+[Click here to view the live site](#)(https://chicagobusinessfinder.netlify.app).
 
 ## git repo
 

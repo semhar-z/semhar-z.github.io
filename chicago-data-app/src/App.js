@@ -1,15 +1,18 @@
-import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import BusinessList from './Component/BusinessList';
+import Home from './Component/Home';
+import Navbar from './Component/Navbar';
 import './styles.css';
 
 const App = () => {
   return (
-    <div>
-      <h1>Chicago Businesses</h1>
-      <div className="container">
-        <BusinessList />
-      </div>
-    </div>
+     <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/businesses" element={<BusinessList />} />
+      </Routes>
+    </Router>
   );
 };
 
